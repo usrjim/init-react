@@ -1,11 +1,6 @@
 {
   "name": "init-react",
   "version": "1.0.0",
-  "scripts": {
-    "build": "esbuild src/app.jsx --jsx=automatic --jsx-import-source=react --bundle --outfile=public/dist/app.js",
-    "watch": "npm run build -- --watch",
-    "serve": "cd public && python3 -m http.server 3000"
-  },
   "author": "usrjim",
   "license": "GPL-3.0",
   "devDependencies": {
