@@ -10,6 +10,8 @@ const options = {
   minify: true,
   format: "cjs",
   sourcemap: false,
+  jsx: "automatic",
+  jsxImportSource: "react",
   outfile: "public/dist/app.js",
 };
 
