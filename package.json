@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "author": "usrjim",
   "license": "GPL-3.0",
-  "devDependencies": {
-    "esbuild": "^0.25.7",
-    "prettier": "^3.6.2"
+  "source": "index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
   },
-  "dependencies": {
+  "devDependencies": {
+    "parcel": "^2.15.4",
+    "prettier": "^3.6.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   }
